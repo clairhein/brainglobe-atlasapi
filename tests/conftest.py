@@ -71,5 +71,3 @@ def temp_path():
 @pytest.fixture(scope="module")
 def atlas_path():
     return BrainGlobeAtlas("example_mouse_100um").root_dir
-
-abc
